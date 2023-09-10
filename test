@@ -8,11 +8,11 @@ job_using_vault:
     DATABASE_PASSWORD:
       vault: #путь до 1 сикрета 
       token: $VAULT_ID_TOKEN1
-  secrets:
+  secrets2:
     DATABASE_PASSWORD:
       vault: #путь до второго сикрета   
       token: $VAULT_ID_TOKEN2
-  secrets:
+  secrets3:
     DATABASE_PASSWORD:
       vault: #путь до третьего сикрета   
       token: $VAULT_ID_TOKEN3
